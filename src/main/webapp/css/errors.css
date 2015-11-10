@@ -1,0 +1,32 @@
+.errorPage {
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+} 
+.errorPage h1 {
+	font-size: 180pt;
+	letter-spacing: -20px;
+}
+.errorPage h1 i.fa {
+	font-size: 80pt;
+	vertical-align: top;
+	margin-top: 30pt;
+}
+.errorPage h2 {
+	font-size: 50pt;
+	font-family: sans;
+	color: #333;
+	letter-spacing: -8px;
+}
+
+.errorPage .explanation {
+	font-size: 17pt;
+}
+.errorPage .explanation small {
+	font-size: 14pt;
+}
+
+.errorPage .bg-warning {
+	color: white;
+	background: red;
+}
