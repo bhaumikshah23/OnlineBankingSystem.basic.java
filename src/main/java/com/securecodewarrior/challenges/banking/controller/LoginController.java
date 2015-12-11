@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 import com.securecodewarrior.challenges.banking.model.User;
 import com.securecodewarrior.challenges.banking.service.UsersService;
 import com.securecodewarrior.challenges.banking.util.Constants;
-import com.securecodewarrior.challenges.banking.util.Log;
 
 
 /**
@@ -57,10 +56,7 @@ public class LoginController extends HttpServlet {
 	protected void doPost(final HttpServletRequest request,final HttpServletResponse response) throws ServletException, IOException
 	{
 
-		System.out.println("Branch branch1");
-		Log.info(this.getClass().getName()+ "==> Method : doPost ==> Enter");
-
-		System.out.println("master branch");
+		System.out.println("Between");
 		final UsersService usersService = new UsersService();
 		HashMap<String, Object> resultHashMap = new HashMap<String, Object>();
 		final HttpSession session = request.getSession();
